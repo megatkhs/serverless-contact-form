@@ -3,11 +3,11 @@
   "extends": [
     "stylelint-config-standard",
     "stylelint-config-standard-scss",
+    "stylelint-config-property-sort-order-smacss",
     "stylelint-config-prettier"
   ],
   "rules": {
-    "string-quotes": "single",
-    "order/properties-alphabetical-order": true
+    "string-quotes": "single"
   },
   "ignoreFiles": ["node_modules/**", "dist/**"]
 }
