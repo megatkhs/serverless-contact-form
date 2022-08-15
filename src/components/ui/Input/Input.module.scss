@@ -1,0 +1,9 @@
+@use '@/styles/global';
+
+.module {
+  height: 50px;
+  padding: 0 16px;
+  border-radius: 4px;
+  border: 2px solid global.$black;
+  font-family: inherit;
+}

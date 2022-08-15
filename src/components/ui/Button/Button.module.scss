@@ -1,0 +1,16 @@
+@use '@/styles/global';
+
+.module {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  padding: 0 32px;
+  border-radius: global.$radius-full;
+  background: global.$primary;
+  color: global.$text-invert;
+}
+
+.label {
+  font-weight: bold;
+}
