@@ -1,0 +1,13 @@
+@use '@/styles/global';
+@import '~destyle.css';
+@import 'https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap';
+
+html {
+  color: global.$text;
+  font-family: 'BIZ UDPGothic', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: global.$size;
+}

@@ -6,12 +6,14 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.33.0
   '@typescript-eslint/parser': ^5.33.0
   '@vitejs/plugin-react': ^2.0.1
+  destyle.css: ^3.0.2
   eslint: ^8.22.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-import: ^2.26.0
   eslint-plugin-react: ^7.30.1
   eslint-plugin-unused-imports: ^2.0.0
   hygen: ^6.2.8
+  postcss: ^8.4.16
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -28,6 +30,7 @@ specifiers:
   vite: ^3.0.7
 
 dependencies:
+  destyle.css: 3.0.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   sass: 1.54.4
@@ -44,6 +47,7 @@ devDependencies:
   eslint-plugin-react: 7.30.1_eslint@8.22.0
   eslint-plugin-unused-imports: 2.0.0_dvbhojt5qn5uxhrjxhkzbh4i6q
   hygen: 6.2.8
+  postcss: 8.4.16
   prettier: 2.7.1
   stylelint: 14.10.0
   stylelint-config-prettier: 9.0.3_stylelint@14.10.0
@@ -1073,6 +1077,10 @@ packages:
     engines: {node: '>=8.0.0'}
     hasBin: true
     dev: true
+
+  /destyle.css/3.0.2:
+    resolution: {integrity: sha512-OUzuAlridP01YP0seHxx+FgwhdXF07Ls9NxnJpR8EI7ADioswoR7VKkBd/s1hNw/G4ILasLSA0k2Kw1M57r1kA==}
+    dev: false
 
   /dir-glob/3.0.1:
     resolution: {integrity: sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==}
@@ -2734,11 +2742,13 @@ packages:
       postcss: 8.4.16
     dev: true
 
-  /postcss-scss/4.0.4:
+  /postcss-scss/4.0.4_postcss@8.4.16:
     resolution: {integrity: sha512-aBBbVyzA8b3hUL0MGrpydxxXKXFZc5Eqva0Q3V9qsBOLEMsjb6w49WfpsoWzpEgcqJGW4t7Rio8WXVU9Gd8vWg==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.3.3
+    dependencies:
+      postcss: 8.4.16
     dev: true
 
   /postcss-selector-parser/6.0.10:
